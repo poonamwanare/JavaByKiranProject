@@ -18,6 +18,7 @@ public class ImageOnePageTest extends TestBase{
 	OldStudentFeedbackPage oldstudentfeedbackPage;
 	ImageOnePage imageonepage;
 	ShareImageOne sharefirstimage;
+	
 	public ImageOnePageTest() throws FileNotFoundException {
 		super();
 	}
@@ -92,16 +93,6 @@ public class ImageOnePageTest extends TestBase{
 		
 	}
 	
-	@Test(priority=7)
-	public void shareImageOneOnFacebookTest() throws FileNotFoundException
-	{
-		imageonepage = oldstudentfeedbackPage.openFirstImage();
-		sharefirstimage = imageonepage.shareFIRSTImage();
-		//shareimageone.shareOnFacebookFIRSTImage();
-		System.out.println("Image one share on facebook");
-	}
-	
-	
 	@AfterMethod
 	public void tearDown()
 	{
@@ -109,3 +100,4 @@ public class ImageOnePageTest extends TestBase{
 	}
 
 }
+

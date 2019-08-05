@@ -31,7 +31,7 @@ public class ImageOnePage extends TestBase{
 	@FindBy(xpath="//*[@id=\"content\"]/div/div[2]/div[2]/div[2]")
 	WebElement detogglefullscreenimageone;
 	
-	@FindBy(xpath="//button[@class=\"pswp__button pswp__button--share\"]")
+	@FindBy(xpath="//*[@id=\"content\"]/div/div[2]/div[2]/div[2]/div[1]/button[2]")
 	WebElement shareimageone;
 	
 	//Actions

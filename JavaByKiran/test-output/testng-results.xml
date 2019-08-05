@@ -1,97 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75453" started-at="2019-07-31T06:26:01Z" finished-at="2019-07-31T06:27:16Z">
+  <suite name="Default suite" duration-ms="13749" started-at="2019-08-05T09:52:17Z" finished-at="2019-08-05T09:52:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75453" started-at="2019-07-31T06:26:01Z" finished-at="2019-07-31T06:27:16Z">
-      <class name="com.jbk.qa.testcases.ImageOnePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="11594" started-at="2019-07-31T06:26:01Z" finished-at="2019-07-31T06:26:12Z">
+    <test name="Default test" duration-ms="13749" started-at="2019-08-05T09:52:17Z" finished-at="2019-08-05T09:52:31Z">
+      <class name="com.jbk.qa.testcases.AboutSirPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.AboutSirPageTest@523884b2]" name="setUp" is-config="true" duration-ms="12173" started-at="2019-08-05T09:52:17Z" finished-at="2019-08-05T09:52:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="imageOneCountTest()[pri:1, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="imageOneCountTest" duration-ms="261" started-at="2019-07-31T06:26:12Z" finished-at="2019-07-31T06:26:13Z">
+        <test-method status="PASS" signature="aboutSirLinkTest()[pri:0, instance:com.jbk.qa.testcases.AboutSirPageTest@523884b2]" name="aboutSirLinkTest" duration-ms="770" started-at="2019-08-05T09:52:29Z" finished-at="2019-08-05T09:52:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imageOneCountTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="768" started-at="2019-07-31T06:26:13Z" finished-at="2019-07-31T06:26:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="9651" started-at="2019-07-31T06:26:13Z" finished-at="2019-07-31T06:26:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="imageOneZoomInTest()[pri:2, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="imageOneZoomInTest" duration-ms="432" started-at="2019-07-31T06:26:23Z" finished-at="2019-07-31T06:26:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imageOneZoomInTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="755" started-at="2019-07-31T06:26:23Z" finished-at="2019-07-31T06:26:24Z">
+        </test-method> <!-- aboutSirLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.AboutSirPageTest@523884b2]" name="tearDown" is-config="true" duration-ms="762" started-at="2019-08-05T09:52:30Z" finished-at="2019-08-05T09:52:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="9823" started-at="2019-07-31T06:26:24Z" finished-at="2019-07-31T06:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="imageOneZoomOutTest()[pri:3, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="imageOneZoomOutTest" duration-ms="400" started-at="2019-07-31T06:26:34Z" finished-at="2019-07-31T06:26:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- imageOneZoomOutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="754" started-at="2019-07-31T06:26:34Z" finished-at="2019-07-31T06:26:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="9444" started-at="2019-07-31T06:26:35Z" finished-at="2019-07-31T06:26:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="toggleFullscreenImageOneTest()[pri:4, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="toggleFullscreenImageOneTest" duration-ms="282" started-at="2019-07-31T06:26:45Z" finished-at="2019-07-31T06:26:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- toggleFullscreenImageOneTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="745" started-at="2019-07-31T06:26:45Z" finished-at="2019-07-31T06:26:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="9072" started-at="2019-07-31T06:26:46Z" finished-at="2019-07-31T06:26:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="detoggleFullscreenImageOneTest()[pri:5, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="detoggleFullscreenImageOneTest" duration-ms="378" started-at="2019-07-31T06:26:55Z" finished-at="2019-07-31T06:26:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- detoggleFullscreenImageOneTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="750" started-at="2019-07-31T06:26:55Z" finished-at="2019-07-31T06:26:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="8811" started-at="2019-07-31T06:26:56Z" finished-at="2019-07-31T06:27:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="shareImageOneTest()[pri:6, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="shareImageOneTest" duration-ms="432" started-at="2019-07-31T06:27:05Z" finished-at="2019-07-31T06:27:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shareImageOneTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="741" started-at="2019-07-31T06:27:05Z" finished-at="2019-07-31T06:27:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="setUp" is-config="true" duration-ms="9243" started-at="2019-07-31T06:27:06Z" finished-at="2019-07-31T06:27:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="shareImageOneOnFacebookTest()[pri:7, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="shareImageOneOnFacebookTest" duration-ms="292" started-at="2019-07-31T06:27:15Z" finished-at="2019-07-31T06:27:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shareImageOneOnFacebookTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jbk.qa.testcases.ImageOnePageTest@26be92ad]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-07-31T06:27:15Z" finished-at="2019-07-31T06:27:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.jbk.qa.testcases.ImageOnePageTest -->
+      </class> <!-- com.jbk.qa.testcases.AboutSirPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

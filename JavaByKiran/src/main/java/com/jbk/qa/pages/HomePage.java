@@ -1,5 +1,7 @@
 package com.jbk.qa.pages;
 
+import java.io.FileNotFoundException;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -65,4 +67,12 @@ public class HomePage extends TestBase
 		return new OldStudentFeedbackPage();
 	}
 
+	@FindBy(xpath="//a[text()=\"About Sir\"]")
+	WebElement aboutsirlink;
+	
+	public AboutSirInfoPage aboutSirLinkSelect() throws FileNotFoundException
+	{
+		aboutsirlink.click();
+		return new AboutSirInfoPage();
+	}
 }

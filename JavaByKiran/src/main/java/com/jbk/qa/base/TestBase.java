@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import com.jbk.qa.util.TestUtil;
 
 public class TestBase 
@@ -21,7 +20,7 @@ public class TestBase
 	{
 		try {
 				prop = new Properties();
-				FileInputStream ip = new FileInputStream("C:\\Users\\SHYAM\\eclipse-workspace\\MAVEN\\JavaByKiran\\src\\main\\java\\com\\jbk\\qa\\config\\config.properties");
+				FileInputStream ip = new FileInputStream("C:\\Users\\SHYAM\\git\\JavaByKiranProject\\JavaByKiran\\src\\main\\java\\com\\jbk\\qa\\config\\config.properties");
 				prop.load(ip);
 			} 
 		catch (FileNotFoundException e) 
